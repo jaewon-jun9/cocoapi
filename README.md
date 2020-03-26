@@ -65,6 +65,10 @@ On Windows, you must have the Visual C++ 2015 build tools on your path. If you d
 
 conda create -n coco #2020 3월 26일 기준 파이썬 3.7.5 가 설치됨
 
+pip install numpy
+
+pip install Cython
+
 pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
 
