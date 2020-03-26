@@ -57,6 +57,31 @@ If you get this error, it is because the COCO library you are calling is **NOT**
 
 
 
+여기서 부터는 내가 설치에 성공한 과정
+
+___
+
+On Windows, you must have the Visual C++ 2015 build tools on your path. If you don't, make sure to install them from [here](https://go.microsoft.com/fwlink/?LinkId=691126):
+
+conda create -n coco #2020 3월 26일 기준 파이썬 3.7.5 가 설치됨
+
+pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+
+
+
+일단 이 세가지
+
+깨끗한 환경에서 다시 시도해보고 수정하겠음
+
+___
+
+### 
+
+
+
+
+
+
 
 
 
