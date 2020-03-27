@@ -71,9 +71,11 @@ pip install Cython
 
 pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
 
+pip install scikit-image
 
 
-일단 이 세가지
+
+
 
 깨끗한 환경에서 다시 시도해보고 수정하겠음
 
