@@ -65,7 +65,7 @@ On Windows, you must have the Visual C++ 2015 build tools on your path. If you d
 
 conda create -n coco #2020 3월 26일 기준 파이썬 3.7.5 가 설치됨
 
-pip install numpy
+pip install numpy==1.17 #1.18 버전이 문제가 있어서 1.17 쓰는경우가 많음
 
 pip install Cython
 
