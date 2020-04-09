@@ -104,7 +104,7 @@ dataset['categories'].append({
 })
 
 sub_index = 0 # the index of ground truth instance
-for num in range(1,10000+1):
+for num in range(1,191961+1):
     json_name = 'C:/Users/student/cocoapi/dataset/train/annos/' + str(num).zfill(6)+'.json'
     image_name = 'C:/Users/student/cocoapi/dataset/train/image/' + str(num).zfill(6)+'.jpg'
 
@@ -231,7 +231,7 @@ for num in range(1,10000+1):
                     })
 
 
-json_name = 'C:/Users/student/cocoapi/dataset/train/deepfashion2train10000.json'
+json_name = 'C:/Users/student/cocoapi/dataset/train/deepfashion2train.json'
 with open(json_name, 'w') as f:
   json.dump(dataset, f)
 
